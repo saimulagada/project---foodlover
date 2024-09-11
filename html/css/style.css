@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Aachen BTRom';
+    src: url('../fonts/aechenbtroman/AachenBT-Roman.woff2') format('woff2'),
+        url('../fonts/aechenbtroman/AachenBT-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.fix::after{
+	content:"";
+	display:block;
+	clear:both
+}
+.container{
+	/*width:1120px;
+	margin:0 auto;*/
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+header{
+	padding:30px 0;
+	background-color:#28282d;
+}
+/*.header_content{
+	float:left;
+	width:33%;
+}*/
+.header_content nav ul{
+	list-style-type:none;
+}
+.header_content nav ul li{
+	display:inline-block;
+	margin-right:20px;
+	margin-left:20px;
+}
+.header_content nav ul li a {
+	text-decoration:none;
+	font-size:20px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+
+}
+.header_content nav ul li .active{
+	color:#e9a438;
+}
+.header_content nav ul li a:hover{
+	color:#e9a438;
+}
+.header_content nav ul .one{
+	margin-right: 20px;
+}
+.banner{
+	background-image:url(../images/banner.png);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 50px 120px 70px;
+}
+.banner_content{
+	float:left;
+	width:50%;
+
+}
+.banner_content h1{
+	font-size:40px;
+	color:#e58f00;
+	font-family: 'Aachen BTRom';
+
+}
+.banner_content p{
+	font-size:25px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+	padding:20px 0 30px 0;
+
+}
+.banner_content a{
+	text-decoration:none;
+	padding:10px 20px;
+	background-color: #e58f00;
+	color:#28282d;
+	font-family: 'Aachen BTRom';
+	border-radius:5px;
+}
+.article{
+	background-color:#1d1d23;
+	padding:50px 0px;
+}
+.article_content:first-child{
+	padding-left:100px;
+}
+.article_content:last-child{
+	padding-right:150px;
+}
+.article_content{
+	float:left;
+	width:50%;
+}
+.article_content img{
+	border:1px solid #e9a438 ;
+	width:400px;
+	height:400px;
+}
+.article_content h2,main h2{
+	font-size:30px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+}
+.article_content p,main p{
+	font-size:20px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+	padding:20px 0;
+
+}
+main{
+	background-color:#1d1d23;
+	background-image:url(../images/bg.png);
+	background-size:cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	padding:400px 0px 640px 0;
+}
+.main_content{
+	float:left;
+	width:50%;
+	padding-left:150px;
+}
+aside,section{
+	background-color:#1d1d23;
+	padding:30px 20px;
+}
+aside h2,section h2{
+	font-size:30px;
+	text-align:center;
+	padding-bottom:25px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+	display:block;
+}
+.aside_content{
+	float:left;
+	width:33%;
+
+}
+.aside_content img{
+	margin:20px 0;
+}
+.section_content{
+	float:left;
+	width:31%;
+	margin-right:25px;
+}
+.section_content h3{
+	font-size:20px;
+	color:#e58f00;
+	font-family: 'Aachen BTRom';
+	padding-top:30px;
+
+}
+.section_content p{
+	font-size:15px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+	padding:15px 0;
+}
+.section_content a{
+	font-size:18px;
+	color:#e58f00;
+	font-family: 'Aachen BTRom';
+}
+.section_content img{
+	max-width:100%;
+	height:350px;
+}
+.prefooter{
+	background-color:#e58f00;
+	background-image:url(../images/img13.png);
+	
+	background-repeat:no-repeat;
+	background-position:center left;
+	padding:85px 100px 85px 0 ;
+}
+.prefooter_content{
+	float:right;
+	width:50%;
+}
+.prefooter_content h2{
+	font-size:25px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+}
+.prefooter_content p{
+font-size:20px;
+color:#fff;
+font-family: 'Aachen BTRom';
+padding:20px 150px 20px 0;
+}
+.prefooter1{
+	background-image: url(../images/img14.png);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:100px 500px;
+}
+.block{
+	text-align:center;
+	border:5px solid #e58f00;
+	padding:30px;
+}
+.block h2{
+	font-size:25px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+
+}
+.block p{
+	font-size:16px;
+	color:#fff;
+	font-family: 'Aachen BTRom';
+	padding:16px 0;
+}
+footer{
+	text-align:center;
+	background-color:#35353b;
+	padding:70px 0;
+}
+footer .logo{
+	margin-bottom:25px;
+}
+footer nav ul {
+	list-style-type: none;
+}
+footer nav ul li{
+	display:inline-block;
+	margin-right:25px;
+}
+footer nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:20px;
+	font-family: 'Aachen BTRom';
+}
+.icons{
+	margin-top:25px;
+}
+.icons i{
+	padding:10px;
+	border-radius:50%;
+	background-color:#fff;
+	color:#000;
+	margin-right:10px;
+}
