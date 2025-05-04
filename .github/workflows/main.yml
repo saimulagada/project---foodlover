@@ -3,7 +3,7 @@ name: Deploy to S3
 on:
   push:
     branches:
-      - main  # Trigger deployment when pushing to main
+      - master  # Trigger deployment when pushing to main
 
 jobs:
   deploy:
@@ -22,4 +22,4 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./public s3://your-s3-bucket-name --delete
+          aws s3 sync ./public s3://stripe-testing-demo --delete
